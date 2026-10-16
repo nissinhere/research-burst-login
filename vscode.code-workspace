@@ -1,0 +1,21 @@
+{
+    "folders": [
+        {
+            "name": "auth-service",
+            "path": "auth-service"
+        },
+        {
+            "name": "docker",
+            "path": "docker"
+        },
+        {
+            "name": "demo",
+            "path": "demo"
+        },
+        {
+            "name": ".",
+            "path": "."
+        }
+    ],
+    "settings": {}
+}
