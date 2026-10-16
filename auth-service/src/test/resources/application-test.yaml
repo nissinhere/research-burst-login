@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:authdb;MODE=PostgreSQL;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+auth:
+  password:
+    bcrypt-strength: 4
+  jwt:
+    secret: test-secret-test-secret-test-secret-0123
+    ttl-seconds: 600
